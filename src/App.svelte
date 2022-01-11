@@ -1,4 +1,5 @@
 <Tailwindcss />
+<Header />
 <main>
   <h1>Hello {name}!</h1>
   <p>
@@ -9,6 +10,7 @@
 
 <script lang="ts">
 import Tailwindcss from './Tailwindcss.svelte'
+import Header from './components/Header.svelte'
 
 export let name: string
 </script>
