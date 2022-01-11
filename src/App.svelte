@@ -13,6 +13,7 @@ import Tailwindcss from './Tailwindcss.svelte'
 export let name: string
 </script>
 
+<!-- style は常に scoped として扱われる -->
 <style>
 main {
   text-align: center;
