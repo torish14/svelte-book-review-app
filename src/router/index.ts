@@ -1,4 +1,4 @@
-import SearchBook from '../pages/SearchBook'
+import SearchBook from '../pages/SearchBook.svelte'
 
 export const routes = {
   '/': SearchBook,
