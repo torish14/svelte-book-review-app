@@ -1,3 +1,7 @@
-<div>本を探す</div>
+<form>
+	<SearchBar />
+</form>
 
-<script lang="ts"></script>
+<script lang="ts">
+import SearchBar from '../components/SearchBar.svelte'
+</script>
